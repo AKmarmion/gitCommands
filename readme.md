@@ -14,4 +14,8 @@ git log                      #list what changes and id's
 git reset --hard idnumber    #go back in time
 git merge branchname         #merge branch into current checkout branch
 git tag -a 'version' -m "description"   
+git reset --hard             #Go back to old state
+git remote add origin url
+git push origin branchName   #push to github the branch
+git pull origin branchName   #pull to local machine
 ...
